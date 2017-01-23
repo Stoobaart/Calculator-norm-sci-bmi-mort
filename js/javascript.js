@@ -45,7 +45,7 @@ function morCalc () {
 }
 
 var calculatorChoice = function (choice) {
-	var choice = prompt("Which calculator do you want to use? Normal, scientific, bmi or mortgage?");
+	var choice = prompt("Which calculator do you want to use? Normal, scientific, bmi or mortgage? or quit if you like");
 	if (choice === "normal") {
 		normalCalc();
 	} else if (choice === "scientific") {
